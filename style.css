@@ -1,0 +1,61 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    list-style: none;
+    font-family: 'open sans', sans serif;
+  }
+  body{
+    background: var(--bg-clr);
+    font-size:12px;
+    line-height: 20px;
+    color:var(--primary-text-clr);
+    padding:0 20px;
+  }
+  .imges{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infi
+   }
+   .resume.resume-left .r-skill ul li,
+.resume.resume-left .r-skill ul li p:first-child,
+.resume.resume-left .r-hobbies ul li p:first-child{
+  display: flex;
+  align-items: center;
+}
+.resume.resume-left .r-skill ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.resume.resume-left .r-skill ul li p:not(:first-child),
+.resume.resume-left .r-hobbies ul li p:not(:first-child){
+  width: 45px;
+  height: 45px;
+  background: var(--rleft-bg);
+  margin-right: 15px;
+  border-radius: 5%;
+  justify-content: center;
+  color: var(--white);
+  font-size: 14px;
+}
+.resume.resume-left .r-hobbies ul{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.resume .resume-right.r-info{
+    padding:35px;
+    background: var(--white);
+}
+.resume .resume-right.r-info ul{
+    display:flex;
+    justify-content: space-between;
+}
+    .resume .resume-right.r-info ul p{
+        font-size: 18px;
+    }
+    .grid-item :hover{
+        color:rgb(130, 130, 241)
+    } 
